@@ -19,5 +19,5 @@ exchange.onsubmit = function(e) {
     };
 
     const convertedAmount = amount * Transfers[convertTO];
-    res.textContent = `Converted amount: ${convertedAmount.toFixed(2)} ${convertTO}`;
+    res.textContent = `Converted amount: ${convertedAmount.toFixed(2)}  `;
 }
